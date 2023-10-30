@@ -1,0 +1,75 @@
+/* HEADER STYLE START */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #F4F8FA;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1168px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-bar {
+    background-color: #FFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.375);
+    padding: 10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+    margin-right: 24px;
+}
+
+.logo-link {
+    margin-right: 352px;
+}
+
+.btn-link {
+    display: flex;
+    gap: 24px;
+
+}
+
+.link-btn {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 6px 12px;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.nav-link {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer {
+    padding: 10px 0;
+    width: 100%;
+}
+
+.footer-paragraph {
+    text-align: center;
+}
